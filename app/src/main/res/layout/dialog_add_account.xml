@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@color/card_light">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="添加账户"
+        android:textColor="@color/text_primary"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <!-- Account Name -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/til_account_name"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:hint="账户名称"
+        app:boxStrokeColor="@color/primary"
+        app:boxStrokeWidth="1.5dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etAccountName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:maxLines="1" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Account Type Spinner -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="账户类型"
+        android:textColor="@color/text_primary"
+        android:textSize="14sp"
+        android:layout_marginBottom="4dp" />
+
+    <Spinner
+        android:id="@+id/spinnerAccountType"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/bg_category_normal"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp" />
+
+    <!-- Initial Balance -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/til_balance"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:hint="初始余额"
+        app:prefixText="¥"
+        app:boxStrokeColor="@color/primary"
+        app:boxStrokeWidth="1.5dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etInitialBalance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:maxLines="1"
+            android:text="0.00" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+</LinearLayout>

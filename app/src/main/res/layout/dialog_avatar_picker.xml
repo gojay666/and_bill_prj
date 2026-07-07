@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="选择头像"
+        android:textColor="@color/text_primary"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <ImageView
+            android:id="@+id/iv_avatar_1"
+            android:layout_width="0dp"
+            android:layout_height="72dp"
+            android:layout_weight="1"
+            android:layout_margin="8dp"
+            android:src="@drawable/avatar_1"
+            android:contentDescription="头像1"
+            android:scaleType="centerCrop"
+            android:padding="0dp"
+            android:background="@drawable/circle_category"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?attr/selectableItemBackgroundBorderless" />
+
+        <ImageView
+            android:id="@+id/iv_avatar_2"
+            android:layout_width="0dp"
+            android:layout_height="72dp"
+            android:layout_weight="1"
+            android:layout_margin="8dp"
+            android:src="@drawable/avatar_2"
+            android:contentDescription="头像2"
+            android:scaleType="centerCrop"
+            android:padding="0dp"
+            android:background="@drawable/circle_category"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?attr/selectableItemBackgroundBorderless" />
+
+        <ImageView
+            android:id="@+id/iv_avatar_3"
+            android:layout_width="0dp"
+            android:layout_height="72dp"
+            android:layout_weight="1"
+            android:layout_margin="8dp"
+            android:src="@drawable/avatar_3"
+            android:contentDescription="头像3"
+            android:scaleType="centerCrop"
+            android:padding="0dp"
+            android:background="@drawable/circle_category"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?attr/selectableItemBackgroundBorderless" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <ImageView
+            android:id="@+id/iv_avatar_4"
+            android:layout_width="0dp"
+            android:layout_height="72dp"
+            android:layout_weight="1"
+            android:layout_margin="8dp"
+            android:src="@drawable/avatar_4"
+            android:contentDescription="头像4"
+            android:scaleType="centerCrop"
+            android:padding="0dp"
+            android:background="@drawable/circle_category"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?attr/selectableItemBackgroundBorderless" />
+
+        <ImageView
+            android:id="@+id/iv_avatar_5"
+            android:layout_width="0dp"
+            android:layout_height="72dp"
+            android:layout_weight="1"
+            android:layout_margin="8dp"
+            android:src="@drawable/avatar_5"
+            android:contentDescription="头像5"
+            android:scaleType="centerCrop"
+            android:padding="0dp"
+            android:background="@drawable/circle_category"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?attr/selectableItemBackgroundBorderless" />
+
+        <ImageView
+            android:id="@+id/iv_avatar_6"
+            android:layout_width="0dp"
+            android:layout_height="72dp"
+            android:layout_weight="1"
+            android:layout_margin="8dp"
+            android:src="@drawable/avatar_6"
+            android:contentDescription="头像6"
+            android:scaleType="centerCrop"
+            android:padding="0dp"
+            android:background="@drawable/circle_category"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?attr/selectableItemBackgroundBorderless" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/fragment_home">
+
+    <fragment
+        android:id="@+id/fragment_home"
+        android:name="com.bill_prj.ui.home.HomeFragment"
+        android:label="首页"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/fragment_bills"
+        android:name="com.bill_prj.ui.bill.BillListFragment"
+        android:label="账单"
+        tools:layout="@layout/activity_bill_list" />
+
+    <fragment
+        android:id="@+id/fragment_statistics"
+        android:name="com.bill_prj.ui.statistics.StatisticsFragment"
+        android:label="@string/statistics"
+        tools:layout="@layout/activity_statistics" />
+
+    <fragment
+        android:id="@+id/fragment_settings"
+        android:name="com.bill_prj.ui.settings.SettingsFragment"
+        android:label="@string/settings"
+        tools:layout="@layout/activity_settings" />
+
+</navigation>

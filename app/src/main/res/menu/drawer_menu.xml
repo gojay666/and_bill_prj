@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_drawer_home"
+            android:icon="@drawable/ic_category"
+            android:title="首页" />
+        <item
+            android:id="@+id/nav_drawer_bills"
+            android:icon="@drawable/ic_menu"
+            android:title="账单" />
+        <item
+            android:id="@+id/nav_drawer_budget"
+            android:icon="@drawable/ic_calendar"
+            android:title="@string/budget" />
+        <item
+            android:id="@+id/nav_drawer_statistics"
+            android:icon="@drawable/ic_share"
+            android:title="@string/statistics" />
+    </group>
+    <item
+        android:id="@+id/nav_drawer_settings"
+        android:icon="@drawable/ic_settings"
+        android:title="@string/settings" />
+    <item
+        android:id="@+id/nav_drawer_about"
+        android:icon="@drawable/ic_person"
+        android:title="@string/about" />
+</menu>

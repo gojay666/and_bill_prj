@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.BillApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/md_primary</item>
+        <item name="colorPrimaryVariant">@color/md_primary_dark</item>
+        <item name="colorOnPrimary">@color/md_on_primary</item>
+        <item name="colorSecondary">@color/md_secondary</item>
+        <item name="colorSecondaryVariant">@color/md_secondary_dark</item>
+        <item name="colorOnSecondary">@color/md_on_secondary</item>
+        <item name="android:statusBarColor">@color/bg_card</item>
+        <item name="android:navigationBarColor">@color/bg_card</item>
+        <item name="colorSurface">@color/bg_card</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="android:windowBackground">@color/background_light</item>
+        <item name="materialCardViewStyle">@style/Widget.BillApp.CardView</item>
+        <item name="bottomNavigationStyle">@style/Widget.BillApp.BottomNavigationView</item>
+        <item name="materialButtonStyle">@style/Widget.BillApp.Button</item>
+    </style>
+    <style name="Theme.BillApp.Light" parent="Theme.BillApp"/>
+    <style name="Theme.BillApp.Dark" parent="Theme.BillApp">
+        <item name="android:statusBarColor">@color/dark_background</item>
+        <item name="android:navigationBarColor">@color/dark_background</item>
+        <item name="android:windowBackground">@color/dark_background</item>
+        <item name="colorSurface">@color/dark_surface</item>
+        <item name="colorOnSurface">@color/text_on_dark</item>
+    </style>
+
+    <!-- ==================== CardView: Large rounded corners, tonal elevation ==================== -->
+    <style name="Widget.BillApp.CardView" parent="Widget.MaterialComponents.CardView">
+        <item name="cardCornerRadius">20dp</item>
+        <item name="cardElevation">1dp</item>
+        <item name="strokeWidth">0dp</item>
+        <item name="cardPreventCornerOverlap">false</item>
+    </style>
+    <style name="Widget.BillApp.CardView.Elevated">
+        <item name="cardElevation">3dp</item>
+        <item name="cardCornerRadius">20dp</item>
+    </style>
+
+    <!-- ==================== Button: Soft round corners, no elevation ==================== -->
+    <style name="Widget.BillApp.Button" parent="Widget.MaterialComponents.Button">
+        <item name="cornerRadius">16dp</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:letterSpacing">0.01</item>
+        <item name="android:elevation">0dp</item>
+        <item name="android:stateListAnimator">@null</item>
+    </style>
+    <style name="Widget.BillApp.Button.Small" parent="Widget.MaterialComponents.Button">
+        <item name="cornerRadius">20dp</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:minHeight">36dp</item>
+        <item name="android:elevation">0dp</item>
+    </style>
+    <style name="Widget.BillApp.Button.Outlined" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="cornerRadius">16dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="strokeWidth">1.5dp</item>
+        <item name="strokeColor">@color/divider</item>
+    </style>
+
+    <!-- ==================== Bottom Nav: Cream tones ==================== -->
+    <style name="Widget.BillApp.BottomNavigationView" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="itemIconTint">@color/bottom_nav_color</item>
+        <item name="itemTextColor">@color/bottom_nav_color</item>
+        <item name="elevation">12dp</item>
+        <item name="itemIconSize">24dp</item>
+        <item name="labelVisibilityMode">labeled</item>
+        <item name="backgroundTint">@color/bg_card</item>
+    </style>
+</resources>

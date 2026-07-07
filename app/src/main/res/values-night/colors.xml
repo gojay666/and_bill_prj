@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ==================== Warm Cream Vintage Dark Palette ==================== -->
+
+    <!-- Primary: Muted Warm Apricot (dim for dark bg) -->
+    <color name="md_primary">#FFC4A48C</color>
+    <color name="md_primary_dark">#FFD4B8A3</color>
+    <color name="md_primary_light">#FF3D3530</color>
+    <color name="md_primary_fade">#30C4A48C</color>
+    <color name="md_on_primary">#FF1A1513</color>
+
+    <!-- Secondary: Muted Bean Paste Pink -->
+    <color name="md_secondary">#FFC9AFA9</color>
+    <color name="md_secondary_dark">#FFD9B8B0</color>
+    <color name="md_secondary_light">#FF3A302E</color>
+    <color name="md_on_secondary">#FF1A1513</color>
+
+    <!-- Tertiary: Dark Mauve -->
+    <color name="md_tertiary">#FFA89098</color>
+
+    <!-- ==================== Functional Colors (Dark-adapted) ==================== -->
+    <color name="income_color">#FF7DA898</color>
+    <color name="income_light">#FF2A3D35</color>
+    <color name="income_bg">#FF1D2E26</color>
+    <color name="expense_color">#FFB8786E</color>
+    <color name="expense_light">#FF3F2A26</color>
+    <color name="expense_bg">#FF2E1E1C</color>
+    <color name="warning_color">#FFD4A870</color>
+    <color name="warning_light">#FF3D3024</color>
+
+    <!-- ==================== Text Colors (Warm off-white tones, no pure white) ==================== -->
+    <color name="text_primary">#FFE8E0D8</color>
+    <color name="text_secondary">#FFA8988E</color>
+    <color name="text_hint">#FF7D7068</color>
+    <color name="text_on_dark">#FFE8E0D8</color>
+    <color name="text_on_dark_secondary">#FFA8988E</color>
+
+    <!-- ==================== Background & Surface (Warm dark) ==================== -->
+    <color name="background_light">#FF1A1513</color>
+    <color name="bg_page">#FF1A1513</color>
+    <color name="bg_card">#FF2B2623</color>
+    <color name="bg_surface_variant">#FF25201D</color>
+    <color name="divider">#FF3D3530</color>
+    <color name="divider_light">#FF35302B</color>
+    <color name="input_bg">#FF25201D</color>
+    <color name="selected_bg">#FF3D3530</color>
+
+    <!-- ==================== Dark Theme aliases ==================== -->
+    <color name="dark_background">#FF1A1513</color>
+    <color name="dark_surface">#FF25201D</color>
+    <color name="dark_card">#FF2B2623</color>
+    <color name="dark_divider">#FF3D3530</color>
+
+    <!-- ==================== Category Colors (Dark-adapted Morandi low-saturation) ==================== -->
+    <color name="cat_food">#FFC49A60</color>
+    <color name="cat_transport">#FF7D9DB0</color>
+    <color name="cat_shopping">#FFC495A3</color>
+    <color name="cat_entertainment">#FFB098C0</color>
+    <color name="cat_housing">#FFA8988E</color>
+    <color name="cat_utilities">#FF8A9EA3</color>
+    <color name="cat_medical">#FFC07A7A</color>
+    <color name="cat_education">#FF8A9DC0</color>
+    <color name="cat_salary">#FF7DA898</color>
+    <color name="cat_investment">#FF78A39E</color>
+    <color name="cat_other">#FFA8988E</color>
+    <color name="cat_communication">#FF7DA0AE</color>
+    <color name="cat_clothing">#FFC098A8</color>
+    <color name="cat_travel">#FFC4B078</color>
+    <color name="cat_social">#FFB898C0</color>
+    <color name="cat_gift">#FFC495A3</color>
+    <color name="cat_bonus">#FFA8B47A</color>
+    <color name="cat_part_time">#FF78B09E</color>
+    <color name="cat_red_packet">#FFB8786E</color>
+    <color name="cat_health">#FF7DA898</color>
+
+    <!-- ==================== Legacy Aliases (override for dark) ==================== -->
+    <color name="color_income">@color/income_color</color>
+    <color name="color_expense">@color/expense_color</color>
+    <color name="color_income_light">@color/income_light</color>
+    <color name="color_expense_light">@color/expense_light</color>
+    <color name="color_primary_dark">@color/md_primary_dark</color>
+    <color name="color_accent">@color/md_secondary</color>
+    <color name="accent">@color/md_secondary</color>
+    <color name="color_background">@color/background_light</color>
+    <color name="color_surface">@color/bg_card</color>
+    <color name="color_text_primary">@color/text_primary</color>
+    <color name="color_text_secondary">@color/text_secondary</color>
+    <color name="color_divider">@color/divider</color>
+    <color name="primary">@color/md_primary</color>
+    <color name="primary_light">@color/md_primary_light</color>
+    <color name="card_light">@color/bg_card</color>
+    <color name="fab_background">@color/md_primary</color>
+    <color name="progress_green">@color/income_color</color>
+    <color name="progress_yellow">@color/warning_color</color>
+    <color name="progress_red">@color/expense_color</color>
+    <color name="overview_income_bg">@color/income_color</color>
+    <color name="overview_expense_bg">@color/expense_color</color>
+    <color name="selected_border">@color/md_primary_dark</color>
+    <color name="category_breakdown">@color/md_primary</color>
+</resources>

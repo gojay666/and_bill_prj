@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">小苟记账本</string>
+
+    <!-- Bottom Navigation -->
+    <string name="nav_home">小苟记账本</string>
+    <string name="nav_bills">账单</string>
+    <string name="nav_statistics">统计</string>
+    <string name="nav_settings">我</string>
+
+    <!-- Menu navigation (alias names referenced by menu XML files) -->
+    <string name="statistics">统计</string>
+    <string name="settings">设置</string>
+    <string name="budget">预算</string>
+    <string name="empty_budgets">暂无预算设置</string>
+
+    <!-- Home -->
+    <string name="today">今天</string>
+    <string name="this_week">本周</string>
+    <string name="this_month">本月</string>
+    <string name="select_date">选择日期</string>
+    <string name="income">收入</string>
+    <string name="expense">支出</string>
+    <string name="total_income">总收入</string>
+    <string name="total_expense">总支出</string>
+    <string name="budget_remaining">预算剩余</string>
+    <string name="no_bills_today">今天还没有账单</string>
+    <string name="add_bill">添加账单</string>
+    <string name="recent_bills">最近账单</string>
+    <string name="pull_to_refresh">下拉刷新</string>
+
+    <!-- Add Bill -->
+    <string name="add_bill_title">添加账单</string>
+    <string name="edit_bill_title">编辑账单</string>
+    <string name="bill_date">日期</string>
+    <string name="bill_type">类型</string>
+    <string name="bill_amount">金额</string>
+    <string name="bill_category">分类</string>
+    <string name="bill_account">账户</string>
+    <string name="bill_note">备注</string>
+    <string name="bill_tags">标签</string>
+    <string name="save">保存</string>
+    <string name="cancel">取消</string>
+    <string name="delete">删除</string>
+    <string name="select_category">请选择分类</string>
+    <string name="enter_amount">请输入金额</string>
+    <string name="yesterday">昨天</string>
+    <string name="this_monday">本周一</string>
+    <string name="custom_date">自定义</string>
+    <string name="amount_hint">0.00</string>
+    <string name="note_hint">添加备注…</string>
+    <string name="tags_hint">标签，用逗号分隔</string>
+    <string name="amount_required">金额必须大于0</string>
+    <string name="category_required">请选择分类</string>
+    <string name="bill_saved">账单已保存</string>
+    <string name="bill_deleted">账单已删除</string>
+
+    <!-- Account Management -->
+    <string name="account_management">账户管理</string>
+    <string name="add_account">添加账户</string>
+    <string name="edit_account">编辑账户</string>
+    <string name="account_name">账户名称</string>
+    <string name="account_type">账户类型</string>
+    <string name="initial_balance">初始余额</string>
+    <string name="total_balance">总余额</string>
+    <string name="delete_account_confirm">确定要删除此账户吗？</string>
+    <string name="account_name_required">请输入账户名称</string>
+    <string name="account_saved">账户已保存</string>
+    <string name="account_deleted">账户已删除</string>
+
+    <!-- Settings -->
+    <string name="theme_mode">主题模式</string>
+    <string name="dark_mode">深色模式</string>
+    <string name="light_mode">浅色模式</string>
+    <string name="system_mode">跟随系统</string>
+    <string name="logout">退出登录</string>
+    <string name="logout_confirm">确定要退出登录吗？</string>
+
+    <!-- Account Types -->
+    <string name="cash">现金</string>
+    <string name="bank_card">银行卡</string>
+    <string name="credit_card">信用卡</string>
+    <string name="alipay">支付宝</string>
+    <string name="wechat">微信支付</string>
+    <string name="other">其他</string>
+
+    <!-- Category Names -->
+    <string name="cat_food">餐饮</string>
+    <string name="cat_transport">交通</string>
+    <string name="cat_shopping">购物</string>
+    <string name="cat_entertainment">娱乐</string>
+    <string name="cat_housing">居住</string>
+    <string name="cat_utilities">日用</string>
+    <string name="cat_health">医疗</string>
+    <string name="cat_education">教育</string>
+    <string name="cat_communication">通讯</string>
+    <string name="cat_clothing">服饰</string>
+    <string name="cat_travel">旅行</string>
+    <string name="cat_social">社交</string>
+    <string name="cat_other_expense">其他支出</string>
+    <string name="cat_salary">工资</string>
+    <string name="cat_bonus">奖金</string>
+    <string name="cat_investment">投资收益</string>
+    <string name="cat_gift">红包</string>
+    <string name="cat_part_time">兼职</string>
+    <string name="cat_other_income">其他收入</string>
+
+    <!-- Login -->
+    <string name="login_required">请先登录</string>
+
+    <!-- Auth -->
+    <string name="login_title">登录</string>
+    <string name="register_title">注册</string>
+    <string name="forgot_password_title">重置密码</string>
+    <string name="username_hint">用户名/手机号</string>
+    <string name="password_hint">密码</string>
+    <string name="phone_hint">手机号</string>
+    <string name="verification_code_hint">验证码</string>
+    <string name="login_button">登录</string>
+    <string name="register_button">注册</string>
+    <string name="send_code">发送验证码</string>
+    <string name="remember_password">记住密码</string>
+    <string name="sms_login">短信验证码登录</string>
+    <string name="password_login">账号密码登录</string>
+    <string name="register_link">还没有账号？注册</string>
+    <string name="forgot_password_link">忘记密码？</string>
+    <string name="login_loading">登录中...</string>
+    <string name="register_loading">注册中...</string>
+    <string name="login_success">登录成功</string>
+    <string name="register_success">注册成功</string>
+    <string name="password_reset_success">密码重置成功！</string>
+    <string name="password_reset_success_hint">请使用新密码登录</string>
+    <string name="username_required">请输入用户名</string>
+    <string name="password_required">请输入密码</string>
+    <string name="password_min_length">密码至少6位</string>
+    <string name="password_mismatch">两次密码输入不一致</string>
+    <string name="phone_invalid">请输入正确的11位手机号</string>
+    <string name="code_required">请输入验证码</string>
+    <string name="username_taken">用户名已被使用</string>
+    <string name="phone_taken">手机号已被注册</string>
+    <string name="phone_not_registered">该手机号未注册</string>
+    <string name="login_failed">用户名或密码错误</string>
+    <string name="confirm_password_hint">确认密码</string>
+    <string name="new_password_hint">新密码</string>
+    <string name="confirm_new_password_hint">确认新密码</string>
+    <string name="submit_reset">确认重置</string>
+    <string name="back_to_login">返回登录</string>
+    <string name="step_verify_phone">步骤 1/3: 验证手机号</string>
+    <string name="step_set_password">步骤 2/3: 设置新密码</string>
+    <string name="step_complete">步骤 3/3: 完成</string>
+    <string name="password_strength_hint">请输入密码</string>
+    <string name="password_strength_weak">弱</string>
+    <string name="password_strength_medium">中</string>
+    <string name="password_strength_strong">强</string>
+    <string name="welcome_back">欢迎回来</string>
+    <string name="code_sent">验证码已发送</string>
+    <string name="send_code_failed">验证码发送失败</string>
+
+    <!-- Bill List -->
+    <string name="this_quarter">本季</string>
+    <string name="this_year">今年</string>
+    <string name="custom">自定义</string>
+    <string name="balance">结余</string>
+    <string name="sort_by_date">按日期排序</string>
+    <string name="sort_by_amount">按金额排序</string>
+    <string name="empty_bills">暂无账单</string>
+    <string name="total">合计</string>
+    <string name="category">分类</string>
+    <string name="amount">金额</string>
+    <string name="confirm">确定</string>
+
+    <!-- Budget -->
+    <string name="daily_budget">每日预算</string>
+    <string name="weekly_budget">每周预算</string>
+    <string name="monthly_budget">每月预算</string>
+    <string name="budget_history">预算历史</string>
+    <string name="budget_exceeded">预算超支</string>
+    <string name="confirm_delete">确认删除</string>
+
+    <!-- Settings -->
+    <string name="theme">主题设置</string>
+    <string name="data_management">数据管理</string>
+    <string name="export_data">导出数据</string>
+    <string name="import_data">导入数据</string>
+    <string name="clear_data">清除数据</string>
+    <string name="account">账户设置</string>
+    <string name="change_password">修改密码</string>
+    <string name="auto_login">自动登录</string>
+    <string name="about">关于</string>
+    <string name="app_version">版本号</string>
+    <string name="budget_notification">预算通知</string>
+
+    <!-- Statistics -->
+    <string name="charts">图表</string>
+    <string name="reports">报表</string>
+    <string name="share">分享</string>
+
+    <!-- Expense Categories (for budget) -->
+    <string-array name="expense_categories">
+        <item>全部</item>
+        <item>餐饮</item>
+        <item>交通</item>
+        <item>购物</item>
+        <item>娱乐</item>
+        <item>医疗</item>
+        <item>教育</item>
+        <item>居住</item>
+        <item>日用</item>
+        <item>其他</item>
+    </string-array>
+</resources>

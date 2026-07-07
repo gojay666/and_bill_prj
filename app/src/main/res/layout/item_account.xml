@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    app:cardElevation="2dp"
+    app:cardCornerRadius="12dp"
+    app:cardBackgroundColor="@color/card_light"
+    app:strokeWidth="0dp"
+    tools:context=".ui.settings.AccountManageActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:padding="12dp">
+
+        <!-- Account Icon (colored circle with letter) -->
+        <FrameLayout
+            android:id="@+id/fl_account_icon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <View
+                android:id="@+id/viewAccountIcon"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/circle_category" />
+
+            <TextView
+                android:id="@+id/tvAccountIconLetter"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                tools:text="微" />
+
+        </FrameLayout>
+
+        <!-- Account Name -->
+        <TextView
+            android:id="@+id/tvAccountName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textColor="@color/text_primary"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/tvAccountBalance"
+            app:layout_constraintStart_toEndOf="@+id/fl_account_icon"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="微信" />
+
+        <!-- Account Type -->
+        <TextView
+            android:id="@+id/tvAccountType"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textColor="@color/text_secondary"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toStartOf="@+id/tvAccountBalance"
+            app:layout_constraintStart_toEndOf="@+id/fl_account_icon"
+            app:layout_constraintTop_toBottomOf="@+id/tvAccountName"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="2dp"
+            tools:text="支付" />
+
+        <!-- Balance -->
+        <TextView
+            android:id="@+id/tvAccountBalance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:textColor="@color/text_primary"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="¥1,280.00" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>

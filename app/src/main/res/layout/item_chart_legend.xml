@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:paddingTop="6dp"
+    android:paddingBottom="6dp"
+    android:paddingStart="4dp"
+    android:paddingEnd="4dp">
+
+    <!-- Color Dot -->
+    <View
+        android:id="@+id/view_color_dot"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_marginEnd="10dp" />
+
+    <!-- Category Name -->
+    <TextView
+        android:id="@+id/tv_legend_category"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="分类"
+        android:textSize="13sp"
+        android:textColor="@color/text_primary" />
+
+    <!-- Amount -->
+    <TextView
+        android:id="@+id/tv_legend_amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¥0.00"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:textColor="@color/text_primary"
+        android:layout_marginEnd="12dp" />
+
+    <!-- Percentage -->
+    <TextView
+        android:id="@+id/tv_legend_percent"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:text="0%"
+        android:textSize="12sp"
+        android:textColor="@color/text_secondary"
+        android:gravity="end" />
+
+</LinearLayout>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ==================== Warm Cream Vintage Palette ==================== -->
+    <!-- Basic -->
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+
+    <!-- Primary: Warm Apricot Milk Tea -->
+    <color name="md_primary">#FFD4B8A3</color>
+    <color name="md_primary_dark">#FFC4A48C</color>
+    <color name="md_primary_light">#FFF0E4DA</color>
+    <color name="md_primary_fade">#30D4B8A3</color>
+    <color name="md_on_primary">#FF3D3530</color>
+
+    <!-- Secondary: Bean Paste Pink -->
+    <color name="md_secondary">#FFE9CFC9</color>
+    <color name="md_secondary_dark">#FFD9B8B0</color>
+    <color name="md_secondary_light">#FFF5EAE7</color>
+    <color name="md_on_secondary">#FF3D3530</color>
+
+    <!-- Tertiary: Muted Mauve -->
+    <color name="md_tertiary">#FFC9B0B8</color>
+
+    <!-- ==================== Functional Colors ==================== -->
+    <color name="income_color">#FF9CB8A8</color>
+    <color name="income_light">#FFD9E8DE</color>
+    <color name="income_bg">#FFF0F5F1</color>
+    <color name="expense_color">#FFC9887E</color>
+    <color name="expense_light">#FFEBD9D5</color>
+    <color name="expense_bg">#FFF6EDEB</color>
+    <color name="warning_color">#FFE8B88A</color>
+    <color name="warning_light">#FFF5E8DB</color>
+
+    <!-- Balance / Primary Highlight -->
+    <color name="balance_color">@color/md_primary</color>
+
+    <!-- ==================== Text Colors (No pure black/white) ==================== -->
+    <color name="text_primary">#FF3D3530</color>
+    <color name="text_secondary">#FF8B7D75</color>
+    <color name="text_hint">#FFB5A89F</color>
+    <color name="text_on_dark">#FFF0EAE3</color>
+    <color name="text_on_dark_secondary">#FFB5A89F</color>
+
+    <!-- ==================== Background & Surface ==================== -->
+    <color name="background_light">#FFFFFAF5</color>
+    <color name="bg_page">#FFFFFAF5</color>
+    <color name="bg_card">#FFFFF7F0</color>
+    <color name="bg_surface_variant">#FFF5EDE7</color>
+    <color name="divider">#FFEAE2DD</color>
+    <color name="divider_light">#FFF0EAE5</color>
+    <color name="input_bg">#FFF5EDE7</color>
+    <color name="selected_bg">#FFF0E4DA</color>
+
+    <!-- ==================== Dark Theme ==================== -->
+    <color name="dark_background">#FF2B2623</color>
+    <color name="dark_surface">#FF38322F</color>
+    <color name="dark_card">#FF38322F</color>
+    <color name="dark_divider">#FF4A4340</color>
+
+    <!-- ==================== Category Colors (Morandi low-saturation) ==================== -->
+    <color name="cat_food">#FFD4A86C</color>
+    <color name="cat_transport">#FF9AAFBF</color>
+    <color name="cat_shopping">#FFD4A5B3</color>
+    <color name="cat_entertainment">#FFC4A8D1</color>
+    <color name="cat_housing">#FFB8ADA3</color>
+    <color name="cat_utilities">#FFA8B5B8</color>
+    <color name="cat_medical">#FFD18A8A</color>
+    <color name="cat_education">#FFA8B8D4</color>
+    <color name="cat_salary">#FF9CB8A8</color>
+    <color name="cat_investment">#FF90B8B4</color>
+    <color name="cat_other">#FFB5A89F</color>
+    <color name="cat_communication">#FF94B8C4</color>
+    <color name="cat_clothing">#FFD4A8B8</color>
+    <color name="cat_travel">#FFD4C488</color>
+    <color name="cat_social">#FFCDA8D4</color>
+    <color name="cat_gift">#FFD4A5B3</color>
+    <color name="cat_bonus">#FFB8C88A</color>
+    <color name="cat_part_time">#FF8DC4B0</color>
+    <color name="cat_red_packet">#FFC9887E</color>
+    <color name="cat_health">#FF9CB8A8</color>
+
+    <!-- Category aliases -->
+    <color name="category_food">@color/cat_food</color>
+    <color name="category_transport">@color/cat_transport</color>
+    <color name="category_shopping">@color/cat_shopping</color>
+    <color name="category_entertainment">@color/cat_entertainment</color>
+    <color name="category_housing">@color/cat_housing</color>
+    <color name="category_utilities">@color/cat_utilities</color>
+    <color name="category_medical">@color/cat_medical</color>
+    <color name="category_education">@color/cat_education</color>
+    <color name="category_salary">@color/cat_salary</color>
+    <color name="category_investment">@color/cat_investment</color>
+    <color name="category_other">@color/cat_other</color>
+    <color name="category_communication">@color/cat_communication</color>
+    <color name="category_clothing">@color/cat_clothing</color>
+    <color name="category_travel">@color/cat_travel</color>
+    <color name="category_social">@color/cat_social</color>
+    <color name="category_bonus">@color/cat_bonus</color>
+    <color name="category_part_time">@color/cat_part_time</color>
+    <color name="category_red_packet">@color/cat_red_packet</color>
+    <color name="category_health">@color/cat_health</color>
+
+    <!-- ==================== Legacy Aliases ==================== -->
+    <color name="color_income">@color/income_color</color>
+    <color name="color_expense">@color/expense_color</color>
+    <color name="color_income_light">@color/income_light</color>
+    <color name="color_expense_light">@color/expense_light</color>
+    <color name="color_primary_dark">@color/md_primary_dark</color>
+    <color name="color_accent">@color/md_secondary</color>
+    <color name="accent">@color/md_secondary</color>
+    <color name="color_background">@color/background_light</color>
+    <color name="color_surface">@color/bg_card</color>
+    <color name="color_text_primary">@color/text_primary</color>
+    <color name="color_text_secondary">@color/text_secondary</color>
+    <color name="color_divider">@color/divider</color>
+    <color name="primary">@color/md_primary</color>
+    <color name="primary_light">@color/md_primary_light</color>
+    <color name="card_light">@color/bg_card</color>
+    <color name="fab_background">@color/md_primary</color>
+    <color name="progress_green">@color/income_color</color>
+    <color name="progress_yellow">@color/warning_color</color>
+    <color name="progress_red">@color/expense_color</color>
+    <color name="overview_income_bg">@color/income_color</color>
+    <color name="overview_expense_bg">@color/expense_color</color>
+    <color name="selected_border">@color/md_primary_dark</color>
+    <color name="category_breakdown">@color/md_primary</color>
+</resources>
